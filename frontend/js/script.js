@@ -2,8 +2,13 @@ const tbody = document.querySelector('tbody');
 const addForm = document.querySelector('.add-form');
 const inputTask = document.querySelector('.input-task');
 
+const API_URL = window.location.hostname === 'localhost' 
+  ? 'http://localhost:3333' 
+  : `http://${window.location.hostname}:3333`;
+
+
 const fetchTasks = async () => {
-    const response = await fetch('http://localhost:3333/tasks');
+    const response = await fetch(`${API_URL}/tasks`);
     const tasks = await response.json()
     return tasks;
 }
@@ -13,7 +18,7 @@ const addTask = async (event) => {
 
     const task = { title: inputTask.value };
 
-    await fetch('http://localhost:3333/tasks', {
+    await fetch(`${API_URL}/tasks`, {
         method: 'post',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(task),
@@ -24,7 +29,7 @@ const addTask = async (event) => {
 }
 
 const deleteTask = async (id) => {
-    await fetch(`http://localhost:3333/tasks/${id}`, {
+    await fetch(`${API_URL}/tasks/${id}`, {
         method: 'delete',
     });
 
@@ -32,7 +37,7 @@ const deleteTask = async (id) => {
 }
 
 const updateTask = async ({ id, title, status }) => {
-    await fetch(`http://localhost:3333/tasks/${id}`, {
+    await fetch(`${API_URL}/tasks/${id}`, {
         method: 'put',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ title, status }),

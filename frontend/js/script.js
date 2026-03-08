@@ -2,9 +2,9 @@ const tbody = document.querySelector('tbody');
 const addForm = document.querySelector('.add-form');
 const inputTask = document.querySelector('.input-task');
 
-const API_URL = window.location.hostname === 'localhost' 
-  ? 'http://localhost:3333' 
-  : `http://${window.location.hostname}:3333`;
+const API_URL = window.location.hostname === 'localhost'
+  ? 'http://localhost:3333'
+  : '';
 
 
 const fetchTasks = async () => {

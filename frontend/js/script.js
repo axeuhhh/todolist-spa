@@ -43,7 +43,7 @@ const updateTask = async ({ id, title, status }) => {
 
 const formatDate = (dateUTC) => {
     const options = { dateStyle: 'long', timeStyle: 'short' };
-    const date = new Date(dateUTC).toLocaleString('pt-br', options);
+    const date = new Date(dateUTC).toLocaleString('en-US', options);
     return date;
 }
 
@@ -64,9 +64,9 @@ const createElement = (tag, innerText = '', innerHTML = '') => {
 
 const createSelect = (value) => {
     const options = `
-    <option value="pendente">pendente</option>
-    <option value="em andamento">em andamento</option>
-    <option value="concluída">concluída</option>
+    <option value="pending">pending</option>
+    <option value="in progress">in progress</option>
+    <option value="completed">completed</option>
     `;
 
     const select = createElement('select', '', options);

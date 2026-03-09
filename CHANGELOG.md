@@ -1,3 +1,10 @@
+# [1.0.0-rc.3](https://github.com/axeuhhh/todolist-spa/compare/v1.0.0-rc.2...v1.0.0-rc.3) (2026-03-09)
+
+
+### Bug Fixes
+
+* remove duplicate setup-node step ([1d8058d](https://github.com/axeuhhh/todolist-spa/commit/1d8058d88f5a70ecedaf678c36e1f2ee5f6b4542))
+
 # [1.0.0-rc.2](https://github.com/axeuhhh/todolist-spa/compare/v1.0.0-rc.1...v1.0.0-rc.2) (2026-03-09)
 
 

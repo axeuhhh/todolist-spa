@@ -1,3 +1,20 @@
+# [1.0.0-rc.2](https://github.com/axeuhhh/todolist-spa/compare/v1.0.0-rc.1...v1.0.0-rc.2) (2026-03-09)
+
+
+### Bug Fixes
+
+* remove duplicate releaserc ([2559c1a](https://github.com/axeuhhh/todolist-spa/commit/2559c1af2bb4b612d464f5cec234979209b947d9))
+* remove duplicate setup-node step ([1d8058d](https://github.com/axeuhhh/todolist-spa/commit/1d8058d88f5a70ecedaf678c36e1f2ee5f6b4542))
+* remove duplicate setup-node step ([1da6d5e](https://github.com/axeuhhh/todolist-spa/commit/1da6d5e788260f9260f7d1ca374463a232de5b00))
+
+
+### Features
+
+* add task priority support ([797d3f8](https://github.com/axeuhhh/todolist-spa/commit/797d3f80f24029356346366d84213103559b3dde))
+* add task priority support ([f096817](https://github.com/axeuhhh/todolist-spa/commit/f09681786209b2292e4758656fa091cbcd0b5cb6))
+* add task priority support ([4415df2](https://github.com/axeuhhh/todolist-spa/commit/4415df2cf82af9025455cec05d32060f648725e3))
+* updates to the release ([229c2bf](https://github.com/axeuhhh/todolist-spa/commit/229c2bf54dec0e0cb18d5113ffdd99034cd1cc0a))
+
 # [1.0.0-rc.6](https://github.com/axeuhhh/todolist-spa/compare/v1.0.0-rc.5...v1.0.0-rc.6) (2026-03-09)
 
 

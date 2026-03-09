@@ -1,0 +1,27 @@
+{
+  "name": "todolist-spa",
+  "version": "1.0.0",
+  "description": "<br>  <img align=\"center\" src=\"frontend/images/1.jpeg\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axeuhhh/todolist-spa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/axeuhhh/todolist-spa/issues"
+  },
+  "homepage": "https://github.com/axeuhhh/todolist-spa#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.6",
+    "semantic-release": "^25.0.3"
+  }
+}

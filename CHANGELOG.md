@@ -1,3 +1,11 @@
+# [1.0.0-rc.5](https://github.com/axeuhhh/todolist-spa/compare/v1.0.0-rc.4...v1.0.0-rc.5) (2026-03-09)
+
+
+### Features
+
+* add task priority support ([4415df2](https://github.com/axeuhhh/todolist-spa/commit/4415df2cf82af9025455cec05d32060f648725e3))
+* updates to the release ([229c2bf](https://github.com/axeuhhh/todolist-spa/commit/229c2bf54dec0e0cb18d5113ffdd99034cd1cc0a))
+
 # [1.0.0-rc.4](https://github.com/axeuhhh/todolist-spa/compare/v1.0.0-rc.3...v1.0.0-rc.4) (2026-03-09)
 
 

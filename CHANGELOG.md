@@ -1,3 +1,10 @@
+# [1.0.0-rc.4](https://github.com/axeuhhh/todolist-spa/compare/v1.0.0-rc.3...v1.0.0-rc.4) (2026-03-09)
+
+
+### Bug Fixes
+
+* remove duplicate releaserc ([2559c1a](https://github.com/axeuhhh/todolist-spa/commit/2559c1af2bb4b612d464f5cec234979209b947d9))
+
 # [1.0.0-rc.3](https://github.com/axeuhhh/todolist-spa/compare/v1.0.0-rc.2...v1.0.0-rc.3) (2026-03-09)
 
 
